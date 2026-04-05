@@ -2,8 +2,8 @@ import React from "react";
 
 export default function SaleCards() {
   return (
-    <div className="bg-gray-100 min-h-screen p-6 ">
-      
+    <div className="bg-gray-100 min-h-screen p-6 mt-300">
+    
       {/* Heading */}
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-2xl font-semibold">

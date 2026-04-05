@@ -1,47 +1,34 @@
 import React from 'react'
+//import { BrowserRouter, Routes, Route } from 'react-router-dom'
+//import UserForm from './components/UserForm'
+import ProductCards from './components/ProductCards'
+import BoatWeb from './components/BoatWeb'
+import BoatFooter from './components/BoatFooter'
+import Cards1Columns from './components/Cards1Columns'
+import CardsColumn from './components/CardsColumn'
+import BoatCards from './components/BoatCards'
+import SaleCards from './components/SaleCards'
 
-
-import ProductCards from './components/ProductCards';
-import SaleCards from "./components/SaleCards";
-import SaleCards2 from "./components/SaleCards";
-import ImgaesColumn from './components/ImgaesColumn';
-import CardsColumns from "./components/CardsColumn";
-import Cards1Columns from "./components/Cards1Columns";
-import BoatWeb from './components/BoatWeb';
-
+import SaleCards2 from './components/SaleCards2'
 function App() {
   return (
-<>
-<BoatWeb/>
+    <>
+   
 
+    <BoatWeb/>
+    <BoatCards/>
 
-
-{ /*
-
-<ImgaesColumn/>
-<ImgaesColumn/>
-<ImgaesColumn/>
-<SaleCards/>
-<SaleCards/>
-<SaleCards/>
-<CardsColumns/>
-<CardsColumns/>
-<Cards1Columns/>
-
-
-
-
-
-<SaleCards/>
-<SaleCards2/>
-*/
-}
-
-
-
-</>
+   
+   
+    
+     {/*  <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<UserForm />} />
+      </Routes>
+    </BrowserRouter>*/}
+   
+    </>
   )
-  
 }
 
-export default App;
+export default App
