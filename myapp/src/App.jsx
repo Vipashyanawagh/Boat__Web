@@ -10,6 +10,7 @@ import BoatCards from './components/BoatCards'
 import SaleCards from './components/SaleCards'
 
 import SaleCards2 from './components/SaleCards2'
+import TopPicksCards from './components/TopPicksCards'
 function App() {
   return (
     <>
@@ -17,8 +18,8 @@ function App() {
 
     <BoatWeb/>
     <BoatCards/>
-
-   
+    <TopPicksCards/>
+    <BoatFooter/>
    
     
      {/*  <BrowserRouter>
